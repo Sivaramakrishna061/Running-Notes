@@ -1,0 +1,18 @@
+Installation; Getting Started:- Locust’s web interface (or) Direct command line usage / headless;
+ Writing Locust file:- (User Class; wait_time attribute (constant; between; constant_pacing); weight and fixed_count attributes; host attribute; tasks attribute; on_start and on_stop methods; Tasks;@task decorator; tasks attribute; @tag decorator; Events: test_start and test_stop; HttpUser class; client attribute;  HttpSession; Validating responses; REST APIs; JSON Extraction; TaskSets); 
+
+Configuration:-Command Line Options; 
+API:- Post API; GET API; (POST API:- 5 Different Login Users who need  different data taken from CSV or dictionary sent a request to Server; GET API:- Validations on the Response);
+Charts (Linear; Step Linear); Distributed Test Scripts (Master, Slave); 
+Configuration:-Command Line Options; (.yaml file); Logging; Changelog Highlights(Version Release Notes); Running Locust distributed with Terraform/AWS;
+AWS (It contains Virtual Environments Which has built with Linux OS run our Locust Scripts which has clone from Git); Docker (It contains Virtual Environments Which has built with Linux OS run our Locust Scripts which has clone from Git);
+
+Locust Web Interface (No.of Users; Spawn rate; Host; (Host; Status; RPS; Failure; Stop; Reset Status), Statistics; Charts; Failures; Exceptions; Download Data), (Coloumns:- Type; Name; Requests; Fails; Median(ms), Avg(ms), Max(ms), Currrent RPS; Current Failures); 
+
+Graph (x- Time; Y - Requests/Users); Send Reports data that was in the JSON to InfluxDB;  Testing Non-Http Custom Client (ftp);
+
+
+
+
+FTP Documentation:- https://docs.python.org/3/library/ftplib.html
+Locust Documentation:- https://docs.locust.io/en/stable/

@@ -1,0 +1,21 @@
+Cypress:-  (Guides; API; Plugins; Examples); 
+Cypress Introduction; Executes actions directly in browser; Cypress Features (Time Travel; Real Time Reloads; Spies, Stubs and clocks; Consistent Results; Debuggability; Automatic Waiting; Network traffic control; Screenshots & Videos); Installing Cypress; Cypress App (Lanchpad:- Cypress Test Runner); 
+Writing and Organizing Tests (Folder Structure); Locator Strategy (Id; CSS (#id; .Class; Reg Ex); Xpath); Ex:- react-redux.realworld.io; Writing Your First E2E Test;  Table traversing:- #table1>tbody>tr:nth-child(1)>td:nth-child(3); jQuery($Object); Xpath dependency (@cypress/xpath); backtick (allows String within String); Guides (Commandline); Example:- demo.automationtesting.in; 
+Ex:- the-internet.herokuapp.com; Ex:-   https://restfulapi.net/http-methods/ Ex:- reqres.in
+
+Commands (Cypress Object. functions :- visit; contains; click; get; type; title; should; not; check; eq; and; select; Catalog of Events:- on; expect (Chai-jQuery); windows; then; stub; returns; each; text(); within; contents; find; wrap; xpath; go; reload; log; as; fixure; API:- server; intercept; request; then); 
+
+
+Hooks (Setup: Before Hook; Login: Before Each hook;  Search Item, Order Item, Checkout Item:- It block; Logout:- After Each Hook; TearDown: After Hook); Test Data (Variable; Fixures folder (.json); excel (xlsx dependency,); csv (csv-parse dependecy)); Plugins (index.js; read-xslx.js); Cypress API (Custom Commands); Configuration (References); Plugins(Cypress xpath; cypress-file-upload); Page Object Model; Cypress Dashboard features; Our Test Cases run on Cypress dashboard with headless mode;  Reporter (Mocha; cypress-multi-reporters; Mochawesome; mochawesome-merge; mochawesome-report-generator); Mocks (Duplicate Server to Backend Server:- Mountebank; mockserver); XHR Testing (XMLHttpRequest):- Project conduit ( react-redux.realworld.io); Developer Environment: Download Source code from Github, Move to Project Directory, Type npm install for Dependencies and npm start to run the project in Browser (http://localhost:4100/), then inspect Elements and Verify API Calls; Update Cypress version (npm install)
+
+Docker (Run Cypress with a single Docker command; Docker is a tool designed to make it easier to deploy and run the application by using containers; Docker Installation; Run Cypress tests in docker; docker run command:- Project directory:- docker run -it -v $PWD:/e2e -w /e2e cypress/included:3.2.0; Docker installed on our machine; Docker container runs the Docker images; If docker images does not have any in locally then Docker pull the Docker images from Docker Hub; Docker hub:- https://hub.docker.com/;  Docker File (This file had with required commands for run the application in container); .dockerIgnore file (ignore node_modules); Docker Compose file (.yml file:- key: value), finally run the docker compose file :- docker-compose -f docker-compose.yml up; if Run the docker with docker file & docker compose file then Video doesnot store in project folder, it will store in container volumes; Volume mapping helps to copy the videos from docker container to project directory);
+
+Cypress Changelog (Cypress Updates will be shown); Cucumber:- (cypress-cucumber-preprocessor (plugin installed); 
+
+Cucumber (Feature file; Step Definition file; Cypress Test Runner):- Feature file and Step Def file should have same naming conventions;
+Cucumber (Feature:, Scenario:, Given, When, And, Then); Gherkin, Cuke Step Definition Generator (VS Code Plugins added); Different Data in Cucumber (fixtures folder called by fixtures():- .json file; dataTable Object. rawTable[1][0] with pipeline); Cucumber Tags (Control the flow of Execution); Cucumber Screenshots;
+
+
+Cypress Commands:- Cypress Command --Option Value/Parameter = value (String; int; boolean; Array; 'Object')
+
+ 

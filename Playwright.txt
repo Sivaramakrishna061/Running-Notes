@@ -1,0 +1,34 @@
+Functional Testing:-
+ UI ((Apache Maven, TestNG, Cucumber, Selenium), Protractor, WebDriverIO, Cypress, Playwright, Selenium IDE, Katalon Studio, Appium)):- Assertions; Data Driven;
+
+UI:-
+Components:- Bootstrap; MaterialUI;
+   1. Input:- Autocomplete; Button; Button Group; Checkbox; Floating Action Button; Radio Group; Rating; Select; Sliders; Switch; Text Field; Transfer List; Toggle Button;
+   2. Data Display:- Avatar;  Badge;  Chip; Divider;  Material SVG Icons; List; Table; Tooltip; Typography;
+   3. Feedback:-Alerts; Backdrop; Dialog; Progress; Snackbar;
+   4. Surfaces:-Accordion; App Bar; Card; Paper;
+   5. Navigations:- Bottom Naviagation; Breadcrumbs; Drawer; Link; Menu; Pagination; Speed Dial; Stepper; Tabs;
+
+Challenges:  Flaky Test caused by Async Issues, Waits, and Network issues;
+Auto Waiting; PlayWright Introduction; Trace Viewer (Before & After  & Actions Shows); Playwright Inspector;  Playwright Test (UI; API Testing);
+Browser Context Features; Codegen (Record & Paly); Track check (npmtrends.com); Installation (Node.js; npm init playwright:- Package.json file created); async & await (Sequential executing); Fixtures ({browser}); Browser Object; Page Object; test.only(Run particular Test case); expect Object (Assertions); WebKit (Safari Browser);
+Instead of Manual wait, Playwright is searching for those Element with help of attributes; Locator Object; Promise Object.all() (To eliminate Race Condition, Like wait command);
+
+Playwright Inspector (Debugging Mode Open: npx playwright test --debug); Locators (CSS selector); Codegen Tool (Record & Playback Tool)
+Running Codegen (Command:- npx playwright codegen demo.playwright.dev/todomvc); Trace & Screenshots (trace: 'on-first-retry', screenshot='on');
+Reports (html; Allure:- npx playwright show-report);  Selecters; Auto-waiting(type():- will provide auto wait, locator.waitFor());
+
+Rahul Shetty Components handled (Input Fields; Check Boxes; Radio Buttons; Buttons; Links; Windows; Static Drop Downs; Dynamic Drop Downs; Web Tables; Cards; Java Pop ups; Mouse hover; Frames); Naviagation Commands; 
+
+API:-
+APIRequest; APIRequestContext; APIResponse;
+Authorization Tokens (Token; Digest5; Berear Token; OAuth1.0; OAuth2.0) will send along with the Request to Server, then Server identify the Client; 
+Login POST API (URL; Request Payload; Response:- Token); Create Orders  POST API (URL; Headers (Authorization Token); Request Payload); BrowserContext Object;
+Debugging Mode; Trace Viewer (trace attribute:- Used to show API in detail); Route Object (Response Interception:- Hijack the Response from Server to client), Request Interception, Abort Calls); Screenshots; Visual Testing (Comparision between screenshots)
+
+Page Object Models; Page Object Manager (Page Objects holds); Notations ((../ means that from Paranet folder); (./ means that from child folder))
+
+Data Driven (JSON file:- JSON Object converts into JavaScript Object by JSON.parse(); Multiple Data sent by Array of JSON); Data Driven by JSON file and Fixtures;
+Configuration file; (Run in Multiple Browsers); Responsive view (Laptop; Tablet; Mobile); SSL Certification;
+ Logs called as Traces in Playwright; failure Test Cases (Retry);  Execution (Serial, Parallel Mode); Tagging (Executes Specific Test Cases);
+Reports (Html, Allure); Integrations (Jenkins);
